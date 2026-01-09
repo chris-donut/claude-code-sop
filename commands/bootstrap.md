@@ -1,8 +1,5 @@
 ---
-name: bootstrap
 description: First-time project setup - creates verify.sh scaffold and GitHub Actions workflow
-allowed-tools: ["Bash", "Read", "Write", "Glob"]
-argument-hint: ""
 ---
 
 # SOP Bootstrap - Verification Harness Setup

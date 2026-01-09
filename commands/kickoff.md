@@ -1,8 +1,5 @@
 ---
-name: kickoff
 description: Start an SOP session - asks the 3 kickoff questions, names the slice, and creates the branch
-allowed-tools: ["Bash", "Read", "Write", "Glob"]
-argument-hint: "[optional: brief goal description]"
 ---
 
 # SOP Session Kickoff

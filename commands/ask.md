@@ -1,8 +1,5 @@
 ---
-name: ask
 description: Generate a diff-sized ask prompt and track micro-blocks. Enforces token stop-loss.
-allowed-tools: ["Bash", "Read", "Write"]
-argument-hint: "<what you want to achieve>"
 ---
 
 # SOP Diff-sized Ask

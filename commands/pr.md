@@ -1,8 +1,5 @@
 ---
-name: pr
 description: Create or update a PR with SOP hygiene - includes goal, non-goals, and verification instructions
-allowed-tools: ["Bash", "Read", "Write"]
-argument-hint: "[optional: pr title]"
 ---
 
 # SOP PR - Create/Update Pull Request

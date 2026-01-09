@@ -1,8 +1,5 @@
 ---
-name: commit
 description: Pre-commit gate - runs verify, shows diff, guides interactive staging with git add -p, commits cleanly
-allowed-tools: ["Bash", "Read", "Write"]
-argument-hint: "[optional: commit message]"
 ---
 
 # SOP Commit - Pre-commit Gate
