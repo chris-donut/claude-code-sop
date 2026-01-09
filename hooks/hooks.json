@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "matcher": {
+        "type": "tool",
+        "tool_name": "Bash"
+      },
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Check if this Bash command contains 'git add -A', 'git add .', or 'git add --all'. If it does:\n\n1. WARN the user: 'SOP Rule Violation: Clean staging only. Never use git add -A or git add . - use git add -p or explicit files instead.'\n\n2. ASK the user: 'Do you want to proceed anyway, or should I block this and help you stage files properly with git add -p?'\n\n3. Based on user response:\n   - If user wants to proceed: respond with just the word 'proceed'\n   - If user wants to block: respond with just the word 'block'\n\nIf the command does NOT contain these patterns, simply respond with 'proceed'.\n\nThe command to check is in the tool input."
+        }
+      ]
+    }
+  ]
+}

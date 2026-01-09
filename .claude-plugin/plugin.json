@@ -1,0 +1,9 @@
+{
+  "name": "sop",
+  "version": "1.0.0",
+  "description": "Minimal, Finish-What-You-Start workflow for Claude Code sessions. Enforces small slices, verification-first commits, and clean git practices.",
+  "author": {
+    "name": "chrizhuu"
+  },
+  "keywords": ["workflow", "git", "verification", "sop", "productivity"]
+}
